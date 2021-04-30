@@ -6,7 +6,7 @@ count = 0
 total_length = 0 
  
  
-# script example to obtein some variables from pcap files 
+# script example to obtain some variables from pcap files 
 with PcapReader('/home/Disciplinas/OficinaMaker/PAD/Wednesday-WorkingHours.pcap') as packets:
     with open('WWH.csv', 'w', encoding='utf-8') as csvfile:
         writer = csv.writer(csvfile, delimiter=',')
