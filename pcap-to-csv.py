@@ -7,7 +7,7 @@ total_length = 0
  
  
 # script example to obtain some variables from pcap files 
-with PcapReader('/home/Disciplinas/OficinaMaker/PAD/Wednesday-WorkingHours.pcap') as packets:
+with PcapReader('/home/workspace/ml-ids/Wednesday-WorkingHours.pcap') as packets:
     with open('WWH.csv', 'w', encoding='utf-8') as csvfile:
         writer = csv.writer(csvfile, delimiter=',')
         writer.writerow(['timestamp', 'source_ip', 'destination_ip', 'source_port', 'destination_port', 'total_length', 'ip_version', 'ip_ihl', 'ip_tos', 'ip_len', 'ip_id', 'ip_flags', 'ip_frag', 'ip_ttl', 'ip_proto', 'ip_chksum', 'tcp_seq', 'tcp_ack', 'tcp_dataofs', 'tcp_reserved', 'tcp_flags', 'tcp_window', 'tcp_chksum', 'tcp_urgptr', 'tcp_options'])
