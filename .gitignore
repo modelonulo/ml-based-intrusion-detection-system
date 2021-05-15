@@ -1,0 +1,31 @@
+
+#from this project
+Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv
+Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv:Zone.Identifier
+Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv
+Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv:Zone.Identifier
+Friday-WorkingHours-Morning.pcap_ISCX.csv
+Friday-WorkingHours-Morning.pcap_ISCX.csv:Zone.Identifier
+Monday-WorkingHours.pcap_ISCX.csv
+Monday-WorkingHours.pcap_ISCX.csv:Zone.Identifier
+Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.csv
+Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.csv:Zone.Identifier
+Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv
+Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv:Zone.Identifier
+Tuesday-WorkingHours.pcap_ISCX.csv
+Tuesday-WorkingHours.pcap_ISCX.csv:Zone.Identifier
+Wednesday-workingHours.pcap_ISCX.csv
+Wednesday-workingHours.pcap_ISCX.csv:Zone.Identifier
+base-de-treino.csv
+combined_data.csv
+
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
